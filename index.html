@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ahmed Jalal</title>
+    <link rel="icon" type="image/png" href="./jt-only.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -22,19 +24,20 @@
         </div>
 
         <ul class="links">
-            <li>Home</li>
-            <li>Education</li>
-            <li>Skills</li>
-            <li>My Work</li>
+            <li><a  class="navBtn" href="#aboutme">About Me</a></li>
+            <li><a  class="navBtn" href="#education">Education</a></li>
+            <li><a  class="navBtn" href="#skills">Skills</a></li>
+            <li><a  class="navBtn" href="#work">My Work</a></li>
+            <li><a  class="navBtn" href="#contact">Contact</a></li>
         </ul>
 
         <div class="contact">
-            <button>Contact Me</button>
+            <button><a  class="navBtnC" href="#contact">Contact</a></button>
         </div>
 
     </nav>
 
-    <div class="aboutme">
+    <div class="aboutme" id="aboutme">
         <div class="left">
             <h1>Hey, I'm Ahmed Jalal</h1>
             <h2>A passionate web developer with a growing skill set in Full Stack technologies.</h2>
@@ -67,7 +70,7 @@
 
 
 
-    <div class="educationSection">
+    <div class="educationSection" id="education">
         <div class="education">
             <h1 class="Eduheading">My Education</h1>
             <div class="itemList">
@@ -110,7 +113,7 @@
 
 
     </div>
-    <div class="skillSection">
+    <div class="skillSection" id="skills">
         <div class="skillHeading">
             <h1>My Skills</h1>
         </div>
@@ -241,7 +244,7 @@
 
     </div>
 
-    <div class="workSection">
+    <div class="workSection" id="work">
         <h1 class="workHeading">My Work</h1>
 
         <div class="projectGrid">
@@ -300,6 +303,48 @@
 
         </div>
     </div>
+
+
+    <div class="contactSection" id="contact">
+        <h1 class="contactHeading">Contact Me</h1>
+        <p>If you'd like to get in touch, feel free to email me directly:</p>
+
+        <div class="contactBox">
+            <span>ahmedjalalzen@gmail.com</span>
+            <a href="mailto:ahmedjalalzen@gmail.com" class="contactBtn">Send Email</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footerContent">
+            <!-- Logo -->
+            <div class="footerLogo">
+                <img src="./jt.png" alt="Logo">
+            </div>
+
+            <!-- Navigation Links -->
+            <ul class="footerLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Social Media -->
+            <div class="socialIcons">
+                <a href="https://github.com/Ahmedjalalz" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="hhttps://www.linkedin.com/in/ahmed-jalal-6b6049327/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/Ahmedjalal01" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/AhmedJalal.z" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <p class="footerCopy">&copy; 2025 Ahmed Jalal. All rights reserved.</p>
+    </footer>
+
+
+
 
 
 </body>
